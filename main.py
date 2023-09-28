@@ -7,6 +7,7 @@ def add_expense():
     expense = {"Дата": date, "Категория": category, "Сумма": amount}
     expenses.append(expense)
     print("Расход успешно добавлен!")
+    print("ffff")
 
 def show_expenses():
     if len(expenses) == 0:
